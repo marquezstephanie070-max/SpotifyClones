@@ -38,6 +38,42 @@ const playlists: Playlist[] = [
   },
 ];
 
+const playlist: Playlist[] = [
+  {
+    id: 1,
+    name: ' Liked Songs',
+    image: 'https://picsum.photos/seed/liked/200',
+  },
+  {
+    id: 2,
+    name: 'Chill Music', 
+    image: 'https://picsum.photos/seed/chill/200',
+  },
+  {
+    id: 3,
+    name: 'Top Hits',
+    image: 'https://picsum.photos/seed/hits/200',
+  },
+  {
+    id: 4,
+    name: 'Daily Mix',
+    image: 'https://picsum.photos/seed/daily/200',
+  },
+];
+
+const podcasts: Playlist[] = [
+  {
+    id: 5,
+    name: 'Daily Podcast',
+    image: 'https://picsum.photos/seed/podcast1/200',
+  },
+  {
+    id: 6,
+    name: 'Tech Talk',
+    image: 'https://picsum.photos/seed/podcast2/200',
+  },
+];
+
 export default function HomeScreen() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
