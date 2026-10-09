@@ -76,7 +76,10 @@ export default function LibraryScreen() {
           <Text style={styles.profileText}>S</Text>
         </View>
 
-        <Text style={styles.title}>Your Library</Text>
+       <View style={styles.titleContainer}>
+           <Text style={styles.title}>Your Library</Text>
+          <Text style={styles.libraryCount}>{playlists.length} playlists</Text>
+        </View>
 
         <TouchableOpacity
           style={styles.addButton}
@@ -160,6 +163,22 @@ export default function LibraryScreen() {
 }
 
 const styles = StyleSheet.create({
+  titleContainer: {
+  flex: 1,
+},
+
+title: {
+  color: 'white',
+  fontSize: 24,
+  fontWeight: 'bold',
+},
+
+libraryCount: {
+  color: '#B3B3B3',
+  fontSize: 13,
+  marginTop: 2,
+},
+
   container: {
     flex: 1,
     backgroundColor: '#121212',
