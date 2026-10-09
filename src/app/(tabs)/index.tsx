@@ -86,7 +86,7 @@ export default function HomeScreen() {
     
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.greeting}>Good afternoon</Text>
+      <Text style={styles.greeting}>Good afternoon 👋</Text>
       
 <View style={styles.categories}>
   {['All', 'Music', 'Podcasts'].map((category) => (
