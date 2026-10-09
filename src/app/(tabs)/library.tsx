@@ -131,7 +131,7 @@ export default function LibraryScreen() {
       </View>
 
       <View style={styles.recentHeader}>
-        <Text style={styles.recent}>Recents</Text>
+        <Text style={styles.recent}>Recently Added</Text>
         <Ionicons name="list" size={22} color="white" />
       </View>
        
@@ -210,13 +210,6 @@ libraryCount: {
     color: 'black',
     fontWeight: 'bold',
     fontSize: 18,
-  },
-
-  title: {
-    color: 'white',
-    fontSize: 24,
-    fontWeight: 'bold',
-    flex: 1,
   },
 
   addButton: {
